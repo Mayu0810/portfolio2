@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-form {
+  padding-top: 100px;
+  text-align: center;
+}
+
+input,textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 7px solid #dee7ec;
+}
+
+.contact-submit{
+  background-color: #8EF1FF;
+  color: #000000;
+}

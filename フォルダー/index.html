@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mayu's page.</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header-logo">Mayu's Page</div>
+    </div>
+
+    <div class="main">
+        <div class="copy-container">
+            <h1>Hello!!</h1>
+            <h2>Welcome to my world<span> :)</span></h2>
+            <p class="img_center">
+                <img src="IMG_6558.JPG" /></p>
+
+        </div>
+        <div class="contents">
+            <div class="contents-item">
+                <div class="img">
+                    <a href="prof.html"><img src="b0dbeeba192884d5991c21ff492348e808620430.gif"></a>
+                    <span class="flash1">Prof</span>
+
+                </div>
+            </div>
+            <div class="contents-item">
+                <div class="img">
+                    <a href="days.html"><img src="55fac204c1b961bd8f36503f052a4c9fbf69ef5f.gif"></a>
+                    <span class="flash1">Days</span>
+                </div>
+            </div>
+            <div class="contents-item">
+                <div class="img">
+                    <a href="https://note.mu/yuto0810"><img src="学校だよ。勉強_l.GIF"></a>
+                    <span class="flash1">note</span>
+                </div>
+            </div>
+            <div class="contents-item">
+                <div class="img">
+                    <a href="おといあわせ.html"><img src="0c0e987f705318fff8953947a41bd11e6889dcd2.gif"></a>
+                    <span class="flash1">Contact</span>
+                </div>
+            </div>
+        </div>
+
+
+        <p class="pagetop"><a href="#wrap">▲</a></p>
+
+
+
+
+        <div class="footer">
+            <div class="footer-logo">See you again<span>...☆</span></div>
+            <div class="footer-list">
+                <ul>
+                    <li>Have a nice day<span> :) </span></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <script>
+            $(document).ready(function() {
+                var pagetop = $('.pagetop');
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 100) {
+                        pagetop.fadeIn();
+                    } else {
+                        pagetop.fadeOut();
+                    }
+                });
+                pagetop.click(function() {
+                    $('body, html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
+                });
+
+            });
+
+            
+
+
+
+
+        </script>
+
+</body>
+
+</html>
+</div>
+</body>
